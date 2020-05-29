@@ -1,5 +1,5 @@
 {
-  "name": "untitled5",
+  "name": "brick-design-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,10 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "antd": "3.26.16",
+    "brickd": "^0.0.7",
+    "brickd-core": "^0.0.6",
+    "bricks-web": "^0.0.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
