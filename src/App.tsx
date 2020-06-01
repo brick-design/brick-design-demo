@@ -1,24 +1,31 @@
 import React from 'react';
 import './App.css';
+import ToolBar from "./toolBar";
 import {BrickDesign} from 'brickd';
 import {LegoProvider} from 'brickd-core';
-import {BrickPreview,BrickTree} from 'bricks-web'
+import {BrickTree} from 'bricks-web';
+import AllComponents from "./AllComponents";
+
 import 'antd/dist/antd.css'
 import 'brickd/dist/index.css';
 import 'bricks-web/dist/index.css';
 import config from './configs'
+import SettingPanel from "./settingsPanel";
 function App() {
   return (
     <LegoProvider config={config}>
-      <div style={{display:"flex",flexDirection:'row'}}>
-        <div style={{width:300,height:'100vh'}}>
-          <BrickPreview isContainer={true}/>
+      <div className='wrapper'>
+        <ToolBar/>
+        <div className='content'>
+        <div className='left-preview'>
+          <AllComponents/>
         </div>
-        <div className={'content'}>
+        <div className='canvas-container'>
           <BrickDesign/>
         </div>
-        <div style={{width:300,height:'calc(100vh - 200px)'}}>
-          <BrickTree/>
+        <div className='props-shadow'>
+          <SettingPanel/>
+        </div>
         </div>
       </div>
     </LegoProvider>
