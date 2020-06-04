@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "antd": "3.26.16",
-    "brickd": "^0.0.7",
-    "brickd-core": "^0.0.6",
-    "bricks-web": "^0.0.10",
+    "brickd": "^1.0.0-alpha.2",
+    "brickd-core": "^1.0.0-alpha.1",
+    "bricks-web": "^1.0.0-alpha.2",
     "html2canvas": "^1.0.0-rc.5",
     "lodash": "^4.17.15",
     "react": "^16.13.1",

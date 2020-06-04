@@ -2628,32 +2628,32 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-brickd-core@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/brickd-core/-/brickd-core-0.0.6.tgz#d6a5fd743f5d04436b2dc5003a6fd81972ec158f"
-  integrity sha512-VMg4H5bwNeKKJUH52cjGSl83NfDK7LT28EDCY3WvoEZ597wdu7R/5hP7iiojrH7jsfTtJLv4lUK8YYNWo8qZVw==
+brickd-core@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/brickd-core/-/brickd-core-1.0.0-alpha.1.tgz#d6ab2ca635cc10b662ceaf64b8cd0b98130d7eea"
+  integrity sha512-VUw9Qjn1Yr70tTCKs2QfcetxdY3b5s/2xnrjnoXRdZWdwCtDRv7ViTso8lwRkQTNlXuKlvng8FPInYFJvcxplQ==
   dependencies:
     immer "^6.0.5"
     lodash "^4.17.15"
     redux "^4.0.5"
     uuid "^3.4.0"
 
-brickd@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/brickd/-/brickd-0.0.7.tgz#e6959e5a7bb413bbefe243ef61480d30cf0ba160"
-  integrity sha512-JPJw2YO6q+FEQM6PnRFKHZ8t3r9oD1mIoxYVfm+SfGLwc7Utme3eGVPgPNsP/QHdZnY9Y+1fT5pNIFQW1MdR2Q==
+brickd@^1.0.0-alpha.2:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/brickd/-/brickd-1.0.0-alpha.2.tgz#76dd6888cb791040f46c5eb1a669aa8c88b74142"
+  integrity sha512-Yx5Gj8Moabqspu/UXw43ujlhMDjnxKgHaPaqNlRKpWXh0YHPtfakqNyKDgDEf5E/jvYdKFKNaJw8incm4JlgXQ==
   dependencies:
-    brickd-core "^0.0.6"
+    brickd-core "^1.0.0-alpha.1"
     lodash "^4.17.15"
 
-bricks-web@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/bricks-web/-/bricks-web-0.0.10.tgz#e0ef05af2e98ac3f5bdf2bb4f8a75e9a81a64a96"
-  integrity sha512-qfjfeuffXSOuo/hkU8j45bS6RckVIDaxNGD4CsLvLxC7bqTJtUiFBNExxTkCtQSgpOV3VjEI3uDdzvhLT/x/YQ==
+bricks-web@^1.0.0-alpha.2:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/bricks-web/-/bricks-web-1.0.0-alpha.2.tgz#89523b862db02424fc8a9dee4507fb4181a9b5f5"
+  integrity sha512-k98TGGgXsA9SdyAZwbTdFqVphoaAAp6zEG+NmqdMNRnzkWev84dLINkwQDukMhgyjhHKNWbltPS7eYS0EsSjDg==
   dependencies:
     antd "3.26.16"
-    brickd "^0.0.7"
-    brickd-core "^0.0.6"
+    brickd "^1.0.0-alpha.2"
+    brickd-core "^1.0.0-alpha.1"
     lodash "^4.17.15"
     react-color "^2.18.0"
     sortablejs "^1.10.2"
